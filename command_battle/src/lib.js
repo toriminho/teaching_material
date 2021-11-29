@@ -45,7 +45,7 @@ class Friend
     }
 
     // 選択されたコマンドのidまたはclassを取得する
-    if(event.target.id != "") {
+    if(event.target.id !== "") {
       this.command = event.target.id;
     }
     else {
